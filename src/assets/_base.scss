@@ -1,0 +1,15 @@
+$header-font: "Archivo Black", sans-serif;
+$paragraph-font: "Roboto Condensed", sans-serif;
+
+$red: #e50914;
+$white: #fefefe;
+$gray: #dddddd;
+$dark-gray: #212025;
+
+@mixin clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}

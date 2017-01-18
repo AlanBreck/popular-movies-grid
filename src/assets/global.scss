@@ -1,0 +1,17 @@
+@import "~_base.scss";
+
+:global {
+	html, body {
+		background: $dark-gray;
+	}
+
+	body {
+		color: $white;
+		font-family: $paragraph-font;
+		font-size: 14px;
+	}
+
+	img {
+		max-width: 100%;
+	}
+}

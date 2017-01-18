@@ -1,0 +1,55 @@
+@import "~_base.scss";
+
+.message {
+	border-top: 1px solid $gray;
+	border-bottom: 1px solid $gray;
+	padding: 20px;
+	margin: 20px 0;
+	font-size: 20px;
+	text-align: center;
+}
+
+.error {
+	@extend .message;
+	border: 1px solid $red;
+	background: transparentize( $red, 0.5 );
+}
+
+.siteTitleContainer {
+	overflow: hidden;
+}
+
+.siteTitle {
+	margin: 0;
+	text-transform: uppercase;
+	margin-top: 0;
+	font-family: $header-font;
+	font-size: 6rem;
+	line-height: 4.9rem;
+	color: $red;
+	margin-left: -0.3rem;
+}
+
+.container {
+	width: 83.4%;
+	margin: 0 auto;
+}
+
+.siteTitleTransition {
+
+	background: #fff;
+
+	@at-root {
+
+		#{&}-appear {
+			transform: translateY( 4rem );
+		}
+
+		#{&}-appear-active {
+			transform: translateY( 0rem );
+			transition: transform .8s ease-in-out;
+		}
+
+	}
+
+}
