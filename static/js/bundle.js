@@ -26852,14 +26852,6 @@
 		);
 	};
 
-	MovieCard.propTypes = {
-		data: _react2.default.PropTypes.shape({
-			id: _react2.default.PropTypes.number,
-			title: _react2.default.PropTypes.string,
-			backdrop_path: _react2.default.PropTypes.string
-		})
-	};
-
 	exports.default = MovieCard;
 
 /***/ },

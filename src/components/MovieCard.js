@@ -19,12 +19,4 @@ const MovieCard = ({ movie }) => (
 
 );
 
-MovieCard.propTypes = {
-	data: React.PropTypes.shape({
-		id: React.PropTypes.number,
-		title: React.PropTypes.string,
-		backdrop_path: React.PropTypes.string,
-	}),
-};
-
 export default MovieCard;
